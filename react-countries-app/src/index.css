@@ -1,0 +1,33 @@
+/* index.css */
+
+/* Base styles for entire site */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #adadad; /* Tailwind's slate-900 */
+    color: #000000; /* Tailwind's slate-100 */
+    min-height: 100%;
+  }
+  
+  /* Ensure React root fills full height */
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Optional utility helpers */
+  a {
+    color: #38bdf8; /* Tailwind's sky-400 */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
